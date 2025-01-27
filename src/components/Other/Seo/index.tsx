@@ -4,9 +4,9 @@ import { SeoInterface } from "@/interfaces/SeoInterface";
 const Seo = ({ title, description }: SeoInterface) => {
     return (
         <Head>
-            <meta name="author" content="Vagner Mengali" />
+            <meta name="author" content="Igor Braga" />
             <meta name="keywords" content="Javascript" />
-            <link rel="fluid-icon" href="/favicon.webp" title="Vagner Mengali" />
+            <link rel="fluid-icon" href="/favicon.webp" title="Igor Braga" />
             <link rel="icon" type="svg+xml" href="/favicon.webp" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>{title}</title>
@@ -19,7 +19,7 @@ const Seo = ({ title, description }: SeoInterface) => {
             <meta name="description" content={description} />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            <meta property="og:site_name" content="Vagner Mengali" />
+            <meta property="og:site_name" content="Igor Braga" />
             <meta property="og:type" content="website" key="ogtype" />
             <meta property="og:url" content="https://vagnermengali.com/" />
             <meta property="og:image:alt" content={description} />
