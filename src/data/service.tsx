@@ -1,7 +1,7 @@
 import {
   RiCodeSSlashFill,
   RiVipDiamondFill,
-  RiDatabase2Fill
+  RiDatabase2Fill,
 } from "react-icons/ri";
 
 export const servicesData = [
@@ -21,6 +21,6 @@ export const servicesData = [
     icon: <RiVipDiamondFill size={72} strokeWidth={0.8} />,
     title: "Identidade pessoal",
     description:
-      "Meu entusiasmo pelo aprendizado contínuo alimenta minha busca por novos desafios e soluções inovadoras em programação.",
+      "Estou sempre em busca de atualizações e aprendizado contínuo, visando aprimorar minhas habilidades e utilizar as melhores práticas para desenvolver soluções robustas e eficientes.",
   },
 ];
